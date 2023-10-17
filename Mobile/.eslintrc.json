@@ -1,0 +1,32 @@
+{
+    "extends" : [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "airbnb-base"
+    ],
+    "rules": {
+      "linebreak-style": 0,
+      "eol-last": 0,
+      "global-require": 0,
+      "import/no-dynamic-require": 0,
+      "arrow-parens": 0,
+      "camelcase": 1,
+      "react/prop-types": 1
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true,
+          "modules": true
+      }
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+      "react",
+      "react-native"
+    ],
+    "globals": {
+      "_": true,
+      "moment": true,
+      "fetch": true
+    }
+  }
